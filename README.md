@@ -16,4 +16,30 @@ The following Questions were addressed:
 
 6- Does the runtime have any effect on the popularity of the genre?
 
+## Data Sources: 
+The data was collected from the following github repository:
+
+https://github.com/khuloodnasher/dsc-mod-1-project-v2-1-onl01-dtsc-ft-030220/tree/master/zippedData
+
+## Data Processing
+
+Pandas library was used to read the data as data frames that are stored in the files: 
+
+'tn.movie_budgets.csv.gz' 
+
+‘Imdb.title.basics.csv'
+ 
+ 'tmdb.movies.csv.gz'
+
+Tables of movie data were merged and the most correlated features were extracted and processed. 
+
+The targeted features that were analyzed go as follows:
+
+Movie name, genere,release date,runtime, production budget, worldwide gross, and domestic gross. 
+
+Intensive data cleaning was performed such as dropping null values, dropping unnecessary  columns, removing symbols, renaming 
+
+some columns, dropping duplicates, lowering case some columns, formatting date as a datetime object, and creating new 
+
+dataframes.
 
