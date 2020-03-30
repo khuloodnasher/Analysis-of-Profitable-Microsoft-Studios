@@ -57,9 +57,12 @@ Revenue= Domestic Gross+Worldwide Gross
 
 Profit= Revenue-Production Budget
 
+
 The Genre column was split to separate genres and the data frame was exploded, so each genre is on its own row. We had 21 
 
 unique genres.
+
+![](Images/genre.png)
 
 The worldwide gross to the profit was plotted by scatter subplots using a Matplotlib figure.  The profit versus genres was 
 
@@ -69,6 +72,9 @@ The  strong correlation between the production budget and the profit was visuali
 
 library.
 
+![](Images/production_budget.png)
+
+
 Monthly profit was visualized by seaborn barplot
 
 A season dataframe was created and grouped by the release season  and release year and aggregated by the mean of the profit 
@@ -76,6 +82,9 @@ A season dataframe was created and grouped by the release season  and release ye
 and was descendent sorted.
 
 The relation between the release season and profit was visualized by barplot.
+
+
+![](Images/season.png)
  
  Profit  by  genres was investigated thoroughly.
 
@@ -86,6 +95,8 @@ Barh plot of profit versus genres.
 Profit to the genres was visualized by  violin plot and stripplot.
     
     Genre trends were analyzed by each season.
+    
+   ![](Images/summer_genre.png) 
  
  A new dataframe was created for each season and was grouped by genres and sliced  by the means of profit and sorted in 
  
@@ -97,7 +108,26 @@ The popularity of runtime was analyzed for the highest genres that are   action 
 
 movies,and animation movies.
 
-## Recommendations were suggested  and submitted to microsoft.
+## Recommendations were suggested  and submitted to microsoft as follows:
+
+The analysis proves that the movie industry was a good investment in the last 10 years. The recommendations go as follows:
+
+A Successful production budget is between 150 US million Dollars to 250 US million Dollars.
+
+Summer is the most profitable season for releasing movies.
+
+
+The best suggested runtime is over one hour and less than two hours.
+
+![](Images/runtime.png)
+
+Animation, Scientific fiction, Action, and Adventure are the most popular profitable genres.
+
+
+Animation movies do best if be run greater than one hour but less than two hours so children will not be bored and they are 
+
+
+best to be released in summer time when school is off.
  
 
 
