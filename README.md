@@ -47,6 +47,7 @@ dataframes.
 ## Data Analysis
 
 Analyses focused on the movie industry in the last decade 2008-2018.
+![](Images/yearly_profit.png)
 
 New Columns were extracted such as release month, and release year from the release date column, runtime in hours, and season using an appropriate function.
 
