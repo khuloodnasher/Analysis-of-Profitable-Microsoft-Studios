@@ -44,3 +44,59 @@ some columns, dropping duplicates, lowering case some columns, formatting date a
 
 dataframes.
 
+## Data Analysis
+
+Analyses focused on the movie industry in the last decade 2008-2018.
+
+New Columns were extracted such as release month, and release year from the release date column, runtime in hours, and season using an appropriate function.
+
+### Revenue and Profit  were calculated as follows:
+
+Revenue= Domestic Gross+Worldwide Gross
+
+Profit= Revenue-Production Budget
+
+The Genre column was split to separate genres and the data frame was exploded, so each genre is on its own row. We had 21 
+
+unique genres.
+
+The worldwide gross to the profit was plotted by scatter subplots using a Matplotlib figure.  The profit versus genres was 
+
+also plotted by seaborn stripplot.
+
+The  strong correlation between the production budget and the profit was visualized by the linear regression plot of seaborn l
+
+library.
+
+Monthly profit was visualized by seaborn barplot
+
+A season dataframe was created and grouped by the release season  and release year and aggregated by the mean of the profit 
+
+and was descendent sorted.
+
+The relation between the release season and profit was visualized by barplot.
+ 
+ Profit  by  genres was investigated thoroughly.
+
+new data frame created by grouping by genres and slicing by the  mean of profit in descendant order.
+
+Barh plot of profit versus genres.
+
+Profit to the genres was visualized by  violin plot and stripplot.
+    
+    Genre trends were analyzed by each season.
+ 
+ A new dataframe was created for each season and was grouped by genres and sliced  by the means of profit and sorted in 
+ 
+ descending order.
+
+profit  was visualized versus genres in each season by barplot.
+
+The popularity of runtime was analyzed for the highest genres that are   action movies,science fiction movies,adventure 
+
+movies,and animation movies.
+
+## Recommendations were suggested  and submitted to microsoft.
+ 
+
+
